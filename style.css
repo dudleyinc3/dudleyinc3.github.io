@@ -1,0 +1,36 @@
+
+/* SOMETHING IS BROKEN ON BODY STYLING
+body {
+	background-color: orange;
+}
+*/
+
+
+h3 {
+	font-weight: bold;
+}
+
+
+ 
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+ 
+.footer_nav{
+	 list-style: none;
+	 background-color: orange;
+}
+.footer_nav li{
+	float: left;
+	padding-right: 170px;
+	padding-top: 15px;
+}
+footer{
+	height: 100px;
+	width: 100%;
+	background-color: orange;
+}
