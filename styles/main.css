@@ -1,0 +1,76 @@
+body {
+	background-color: gray;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding-bottom: 5rem;
+}
+h1 {
+	font-weight: bold;
+	color: rgba(51, 102, 204, 0.7);
+}
+h3 {
+	font-weight: 400;
+}
+.description p {
+	font-size: 1.6rem;
+}
+header {
+	background: url(images/cityline_at_beach.jpg) center / cover;
+	height: 60vh;
+	justify-content: center;
+	text-align: center;
+}
+@media screen and (max-width: 1024px) {
+	header.mdl-layout__header {
+		display: flex;
+	}
+}
+main {
+	max-width: 900px;
+}
+.project-description {
+	padding-left: 0;
+}
+.project img {
+	width: 100%;
+}
+footer.mdl-mini-footer {
+	bottom: 0;
+	padding: 0.5rem;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+footer.mdl-mini-footer>ul {
+	margin: auto;
+	font-size: 2rem;
+}
+/* 
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+ 
+.footer_nav{
+	 list-style: none;
+}
+.footer_nav li{
+	float: left;
+	padding-right: 170px;
+	padding-top: 15px;	
+}
+.navbar-default {
+    background-color: grey;
+    border-color: #e7e7e7;
+    height: 80px;
+}
+
+/*  MY CODE/LAYOUT */
+
+/*.gallery {
+	  margin-bottom: 100px;
+	  padding-bottom: 20px;
+}
+*/

@@ -2,70 +2,110 @@
 <html>
 <head>
 	<title>Portfolio | John Dudley</title>
-	<link href="style.css" rel="stylesheet">
-	<script src="https://use.fontawesome.com/a3c3362c04.js"></script>
-	  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	<link href="https://code.getmdl.io/1.3.0/material.grey-blue.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="styles/main.css" rel="stylesheet">
 </head>
-<body style="background-color: grey;">
-
-	<header>
+<body>
+	<header class="mdl-layout__header mdl-layout__header--transparent" id="portfolio-header">
 		<h1>John Dudley</h1>
-		<p class="title">Full Stack Developer and Design</p>
-		<p id="slogan">Better Living through Brilliant Design</p>
+		<div class="description">
+			<p class="title">Full Stack Developer and Design</p>
+			<p class="slogan">Better Living through Brilliant Design</p>
+		</div>
 	</header>
-	<div class="container-fluid">
-		<main class="gallery">
-			<div class="project">
-				<h3>Sound of Solace</h3><a href="https://www.sitehypedesigns.com"><img alt="project sample" src="https://placeimg.com/640/480/people?t=1508392946441"></a>
-				<p>With the use of a clear layout based on a large number of images, interesting topography and contrasting colors, the pages look pleasant and attract new users, while the content exploration has become easy and intuitive</p>
+	<main class="mdl-layout__content mdl-grid">
+		<div class="project featured-project mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
+			<div class="mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet"><img alt="project screenshot" src="images/seperation.jpeg"></div>
+			<div class="mdl-cell mdl-cell--7-col">
+				<h2 class="mdl-card__title-text">Seperation</h2>
+				<p class="project-description mdl-card__supporting-text">Near and Far</p>
 			</div>
-			<div class="project">
-				<h3>Pillars of Past</h3><a href="https://www.sitehypedesigns.com"><img alt="columns" src="https://placeimg.com/640/480/arch?t=1508392674977"></a>
-				<p>With the use of a clear layout based on a large number of images, interesting topography and contrasting colors, the pages look pleasant and attract new users, while the content exploration has become easy and intuitive</p>
+			<div class="mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet"><img alt="project screenshot" src="images/seperation.jpeg"></div>
+			<div class="mdl-cell mdl-cell--7-col">
+				<h2 class="mdl-card__title-text">Featured Project Name</h2>
+				<p class="project-description mdl-card__supporting-text">Project description text</p>
 			</div>
-			<div class="project">
-				<h3>Eyes of Steel</h3><a href="https://www.sitehypedesigns.com"><img alt="sepia_condo" src="https://placeimg.com/640/480/people?t=1508393105394"></a>
-				<p>With the use of a clear layout based on a large number of images, interesting topography and contrasting colors, the pages look pleasant and attract new users, while the content exploration has become easy and intuitive</p>
-			</div>		
-		</main>
-	</div>
-
-
-<nav class="navbar navbar-default navbar-fixed-bottom">
-   <div class="container-fluid">
-	   	<ul class="footer_nav">
-
-			<!-- Email -->
+			<div class="mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet"><img alt="project screenshot" src="images/seperation.jpeg"></div>
+			<div class="mdl-cell mdl-cell--7-col">
+				<h2 class="mdl-card__title-text">Featured Project Name</h2>
+				<p class="project-description mdl-card__supporting-text">Project description text</p>
+			</div>
+		</div>
+	</main>
+	<footer class="mdl-mini-footer">
+		<ul class="mdl-mini-footer__link-list">
 			<li>
-				<a href="mailto:dudleyinc3@gmail.com"><i class="fa fa-envelope fa-4x" aria-hidden="true"></i></a> 
+				<a href="{Your%20LinkedIn%20URL}"><i aria-hidden="true" class="fa fa-linkedin-square"></i></a>
 			</li>
-
-				<!-- Facebook -->
-
 			<li>
-				 <a href="http://www.facebook.com/johnny.dudley.94" target="_blank"><i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i></a>
-			</li> 
-			
-				 <!-- LinkedIn -->
-
-			<li>
-				 <a href="https://www.linkedin.com/in/john-dudley-64b8b9112/" target="_blank"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a> 
+				<a href="{Your%20GitHub%20Profile%20URL}"><i aria-hidden="true" class="fa fa-github-square"></i></a>
 			</li>
-
-				 <!-- Twitter -->
-
 			<li>
-				 <a href="https://twitter.com/dudleymusic" target="blank"><i class="fa fa-twitter-square fa-4x" aria-hidden="true"></i></a> 
+				<a href="{Your%20Facebook%20Profile%20URL}"><i aria-hidden="true" class="fa fa-facebook-square"></i></a>
 			</li>
-
-				 <!-- GitHub -->
 			<li>
-				 <a href="https://github.com/dudleyinc3" target="_blank"><i class="fa fa-github-square fa-4x" aria-hidden="true"></i></a>
+				<a href="{Your%20Twitter%20URL}"><i aria-hidden="true" class="fa fa-twitter-square"></i></a>
+			</li>
+			<li>
+				<a href="mailto:{Your%20email%20address}"><i aria-hidden="true" class="fa fa-envelope-square"></i></a>
 			</li>
 		</ul>
-   </div>
-</nav>
-
+	</footer>
 </body>
-
 </html>
+
+
+
+	<!-- MY LAYOUT -->
+	<!--<h3>Seperation</h3><a href="https://www.sitehypedesigns.com"><img alt="project sample" src="images/seperation.jpeg"></a>
+                <p>With the use of a clear layout based on a large number of images, interesting topography and contrasting colors, the pages look pleasant and attract new users, while the content exploration has become easy and intuitive</p>
+            </div>
+
+            <div class="project">
+                <h3>Sound of Solace</h3><a href="https://www.sitehypedesigns.com"><img alt="columns" src="images/sound_of_solace.jpeg"></a>
+                <p>With the use of a clear layout based on a large number of images, interesting topography and contrasting colors, the pages look pleasant and attract new users, while the content exploration has become easy and intuitive</p>
+            </div>
+
+            <div class="project">
+                <h3>Eyes of Steel</h3><a href="https://www.sitehypedesigns.com"><img alt="sepia_condo" src="images/eyes_of_steel.jpg"></a>
+                <p>With the use of a clear layout based on a large number of images, interesting topography and contrasting colors, the pages look pleasant and attract new users, while the content exploration has become easy and intuitive</p>
+            </div>
+        -->
+	<!--<nav class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container-fluid">
+            <ul class="footer_nav">
+                <!== Email -->
+	<!--<li>
+                    <a href="mailto:dudleyinc3@gmail.com"><i aria-hidden="true" class="fa fa-envelope fa-4x"></i></a>
+                </li><!== Facebook -->
+	<!--<li>
+                    <a href="http://www.facebook.com/johnny.dudley.94" target="_blank"><i aria-hidden="true" class="fa fa-facebook-square fa-4x"></i></a>
+                </li><!== LinkedIn -->
+	<!--<li>
+                    <a href="https://www.linkedin.com/in/john-dudley-64b8b9112/" target="_blank"><i aria-hidden="true" class="fa fa-linkedin-square fa-4x"></i></a>
+                </li><!== Twitter -->
+	<!--<li>
+                    <a href="https://twitter.com/dudleymusic" target="blank"><i aria-hidden="true" class="fa fa-twitter-square fa-4x"></i></a>
+                </li><!== GitHub -->
+	<!--<li>
+                    <a href="https://github.com/dudleyinc3" target="_blank"><i aria-hidden="true" class="fa fa-github-square fa-4x"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+-->
+
+
+
+
+
+
+
+
+
+
