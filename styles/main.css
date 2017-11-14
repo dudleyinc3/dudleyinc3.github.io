@@ -13,8 +13,8 @@ h3 {
 	font-size: 1.6rem;
 }
 header {
-	background: url(images/cityline_at_beach.jpg) center / cover;
-	height: 40vh;
+	background: url("../images/cityline_at_beach.jpg") center / cover;
+	height: 80vh;
 	justify-content: center;
 	text-align: center;
 }
